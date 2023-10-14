@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'NotoSan';
+    src: url('assets/font/NotoSansNKoUnjoined-VariableFont_wght.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'NotoSan';
+}
+
+:root{
+    --dark-biscut: #F6F0E8;
+    --biscut :#FFFCF8;
+    --dark-blue :#14203E;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 24px 0;
+}
+
+.header-parts {
+    margin: 0 32px;
+}
+
+h3{
+    color: #c9c9c9;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+ul li{
+    padding: 16px;
+    color: var(--dark-blue);
+    font-weight: 500;
+}
+
+.button{
+    background-color: var(--dark-biscut);
+    padding: 8px 18px;
+    margin: 8px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    color: var(--dark-blue);
+}
+
+.button:last-child{
+    background-color: var(--dark-blue);
+    color: var(--biscut);
+}
+
+section{
+    width: 95vw;
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--biscut);
+    border: none;
+    border-top: 1px solid lightgray;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1{
+    width: 16ch;
+    font-size: 56px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.container p{
+    font-size: 24px;
+    width: 48ch;
+    text-align: center;
+}
+
+.section-button{
+    padding: 24px 40px;
+    margin: 32px;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.last {
+    padding: 88px 0 0;
+    height: 50vh;
+    background-color: white;
+}
+
+.wrapper-footer{
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+}
+
+.head-text{
+    position: relative;
+    width: 75%;
+    text-align: center;
+}
+
+.head-text h5{
+    width: 45%;
+    position: relative;
+    left: 25%;
+    bottom: 12px;
+    background-color: white;
+}
+
+.card {
+    margin: 16px;
+    width: 23%;
+    height: 256px;
+    color: var(--dark-blue);
+}
+
+.card-img{
+    width: 100%;
+    height: 79%;
+    object-fit: cover;
+}
+
+.card-title{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.date{
+    font-size: 10px;
+}
